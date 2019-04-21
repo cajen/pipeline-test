@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A test project for travic-ci pipeline",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^6.1.4"
+  },
   "devDependencies": {
     "mocha": "^6.1.4"
   },
