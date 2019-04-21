@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "A test project for travic-ci pipeline",
   "main": "index.js",
-  "dependencies": {
-    "mocha": "^6.1.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^6.1.4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
