@@ -1,0 +1,23 @@
+{
+  "name": "pipeline-test",
+  "version": "1.0.0",
+  "description": "A test project for travic-ci pipeline",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cajen/pipeline-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cajen/pipeline-test/issues"
+  },
+  "homepage": "https://github.com/cajen/pipeline-test#readme"
+}
