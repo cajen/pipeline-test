@@ -10,6 +10,8 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  fileglob: true
+  file: ./docs/**/*
   keep_history: true
   on:
     branch: master
