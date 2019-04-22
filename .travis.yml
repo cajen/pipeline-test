@@ -8,7 +8,7 @@ cache:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 06a2d4ff3d77cda70cdd86493f06864412baa631  
+  github_token: $jsdoc-access-token  
   keep_history: true
   on:
     branch: master
