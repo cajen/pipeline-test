@@ -1,6 +1,14 @@
 language: node_js
 node_js: 
   - "stable"
+script: npm test
 cache:
   directories:
     - "node_modules"
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 06a2d4ff3d77cda70cdd86493f06864412baa631  
+  keep_history: true
+  on:
+    branch: master

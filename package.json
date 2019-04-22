@@ -8,10 +8,12 @@
     "eslint": "^5.16.0",
     "eslint-config-google": "^0.12.0",
     "jsdoc": "^3.5.5",
+    "minami": "^1.2.3",
     "mocha": "^6.1.4"
   },
   "scripts": {
-    "test": "mocha --exit"
+    "test": "mocha --exit",
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   },
   "repository": {
     "type": "git",
