@@ -13,5 +13,6 @@ deploy:
   fileglob: true
   file: ./docs/**/*
   keep_history: true
+  target_branch: master
   on:
     branch: master
