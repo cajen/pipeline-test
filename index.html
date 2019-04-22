@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Web Component World</title>
+</head>
+<body>
+    <hello-world></hello-world>
+    <script>
+        class HelloWorldElement extends HTMLElement {
+            constructor() {
+                super();
+
+                let shadowRoot = this.attachShadow({ mode: 'open' });
+                let elementContent = `<h1>Hello Web Component World!</h1>`;
+
+                shadowRoot.innerHTML = elementContent;
+            }
+        }
+
+        window.customElements.define('hello-world', HelloWorldElement);
+    </script>
+</body>
+</html>
