@@ -1,2 +1,2 @@
 # pipeline-test
-test repo for CI pipeline.
+test repo for CI pipeline
